@@ -22,6 +22,12 @@
     @media screen and (max-width: 900px) {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      input {
+        margin-bottom: 20px;
+      }
+      li {
+        margin-bottom: 10px;
+      }
     }
   }
   input[type="text"] {
@@ -61,4 +67,6 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+  
+  
 }
