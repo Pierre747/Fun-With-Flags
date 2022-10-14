@@ -19,6 +19,10 @@
       margin-left: 10px;
       cursor: pointer;
     }
+    @media screen and (max-width: 900px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
   }
   input[type="text"] {
     padding: 10px;

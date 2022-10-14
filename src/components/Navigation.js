@@ -10,14 +10,14 @@ function Navigation() {
 					end
 					className={(nav) => (nav.isActive ? 'nav-active' : '')}
 				>
-					Accueil
+					Home
 				</NavLink>
 				<NavLink
 					to='/about'
 					end
 					className={(nav) => (nav.isActive ? 'nav-active' : '')}
 				>
-					A propos
+					About
 				</NavLink>
 			</ul>
 		</div>

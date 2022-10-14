@@ -19,8 +19,8 @@ function Countries() {
 		axios
 			.get('https://restcountries.com/v3.1/all')
 			.then((res) => setData(res.data) + setIsLoading(false))
-			.catch(() => {
-				console.log('Unable to fetch user list');
+			.catch((err) => {
+				console.log(`Unable to fetch user list because : ${err.message}`);
 				setIsLoading(false);
 			});
 	}, []);
