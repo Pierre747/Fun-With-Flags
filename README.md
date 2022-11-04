@@ -22,7 +22,7 @@ The project is live on Netlify 😉
 
 ### Browser
 
-![Browser](https://i.ibb.co/j3hbRsQ/browser.webp)
+![Browser](https://i.ibb.co/tmPpsCC/browser.webp)
 
 
 ### Phone
